@@ -20,18 +20,18 @@ Também revisei alguns conceitos como:
 
 Apesar de ter compreendido bem todos os conceitos e ter conseguido implementar pequenos sistemas no processo eu não consegui, no tempo restrito que me foi disponibilizado e em virtude também da época do ano já naturalmente mais conturbada, chegar a versão final do projeto como eu gostaria. Apesar disso, envio a vocês os 3 pequenos projetos para que sejam avaliados dentro de cada um de seus respectivos escopos. Explico brevemente cada um deles.
 
-### BemobiXmlRESTfulWebService
+### Projeto 1 - BemobiXmlRESTfulWebService
 
 Este primeiro projeto permite o gerenciamento de "links" (que é como eu chamo as urls armazenadas com seus respectivos alias) através de um cliente HTTP (como o CURL, por exemplo). Através do Browser é possível verificar todos os links cadastrados e entrar nos detalhes de cada um deles individualmente obtendo sempre a resposta do servidor no formato de XML.
 
-### BemobiDatabaseInteraction
+### Projeto 2 - BemobiDatabaseInteraction
 
 Neste segundo projeto é possível utilizar 3 tipos diferentes de interface com o banco de dados implementado:
 - Primeiro a tecnologia JDBD através de seus DAOs e queries;
 - Em segundo lugar utilizando a abordagem JPA através de seus repositórios e facilidades de comunicação com o banco;
 - E por último a versão mais alto nível proporcionada pela abordagem Spring Data acrescentando mais uma camada de abstração ao processo;
 
-### BemobiSpringMVC
+### Projeto 3 - BemobiSpringMVC
 
 Neste terceiro e último projeto foi implementado uma interface de login com validação de usuário e senha através de um formulário simples. O destaque aqui fica por conta da implemantação da solução MVC utilizando o Design Pattern chamado Front Controller.
 
